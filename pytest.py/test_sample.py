@@ -22,7 +22,7 @@ def test_login():
 
 def test_tear_down():
     
-    time.sleep(2)
+    time.sleep(3)
 
     driver.close()
     driver.quit()
